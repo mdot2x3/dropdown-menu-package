@@ -1,5 +1,5 @@
 {
-  "name": "dropdown-menu-package",
+  "name": "@mdot2x3/dropdown-menu-package",
   "version": "1.0.0",
   "description": "A simple, reusable dropdown menu utility for web projects.",
   "main": "index.js",
