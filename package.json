@@ -1,0 +1,21 @@
+{
+  "name": "dropdown-menu-package",
+  "version": "1.0.0",
+  "description": "A simple, reusable dropdown menu utility for web projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdot2x3/dropdown-menu-package.git"
+  },
+  "keywords": [
+    "dropdown",
+    "menu",
+    "ui",
+    "javascript"
+  ],
+  "author": "mdot2x3",
+  "license": "MIT"
+}

@@ -10,6 +10,8 @@ npm install dropdown-menu-package
 
 ## Usage
 
+For use with build tools like Webpack, Vite, Create React App, etc.
+
 1. **Import the JavaScript and CSS:**
 
    ```js

@@ -23,8 +23,15 @@ function attachDropdownMenu({ buttonSelector, menuSelector }) {
       activeButton = button;
       menu.classList.remove("hidden");
       const rect = button.getBoundingClientRect();
-      menu.style.top = `${rect.bottom + window.scrollY}px`;
-      menu.style.left = `${rect.right + window.scrollX - menu.offsetWidth}px`;
+      const windowMid = window.innerWidth / 2;
+
+      if (rect.left < windowMid) {
+        menu.style.top = `${rect.bottom + window.scrollY}px`;
+        menu.style.left = `${rect.left + window.scrollX}px`;
+      } else {
+        menu.style.top = `${rect.bottom + window.scrollY}px`;
+        menu.style.left = `${rect.right + window.scrollX - menu.offsetWidth}px`;
+      }
       setTimeout(() => menu.classList.add("visible"), 10);
 
       body.style.pointerEvents = "none";
