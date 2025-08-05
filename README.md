@@ -5,7 +5,7 @@ A simple, reusable dropdown menu utility for web projects.
 ## Installation
 
 ```bash
-npm install dropdown-menu-package
+npm install @mdot2x3/dropdown-menu-package
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ For use with build tools like Webpack, Vite, Create React App, etc.
 1. **Import the JavaScript and CSS:**
 
    ```js
-   import { attachDropdownMenu } from "dropdown-menu-package";
-   import "dropdown-menu-package/style.css";
+   import { attachDropdownMenu } from "@mdot2x3/dropdown-menu-package";
+   import "@mdot2x3/dropdown-menu-package/style.css";
    ```
 
 2. **Add HTML:**
