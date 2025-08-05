@@ -1,7 +1,8 @@
 {
   "name": "@mdot2x3/dropdown-menu-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple, reusable dropdown menu utility for web projects.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +18,9 @@
     "javascript"
   ],
   "author": "mdot2x3",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdot2x3/dropdown-menu-package/issues"
+  },
+  "homepage": "https://github.com/mdot2x3/dropdown-menu-package#readme"
 }

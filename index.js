@@ -5,7 +5,7 @@
  * @param {string} options.menuSelector - css selector for the dropdown menu
  */
 
-function attachDropdownMenu({ buttonSelector, menuSelector }) {
+export function attachDropdownMenu({ buttonSelector, menuSelector }) {
   let activeButton = null;
 
   const buttons = document.querySelectorAll(buttonSelector);
@@ -61,6 +61,3 @@ function attachDropdownMenu({ buttonSelector, menuSelector }) {
     activeButton = null;
   }
 }
-
-// export for npm usage
-module.exports = { attachDropdownMenu };
